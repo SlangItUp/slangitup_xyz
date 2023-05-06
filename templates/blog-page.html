@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/css/blog.css">
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div class ="title"itemprop="headline">
+        <h1>{{ page.title }}</h1>
+        <div class="border"></div>
+        <div class="info">
+          <p>Date Published : {{ page.date | date(format="%d %b %Y") }}</p> 
+          <p>Reading Time :  {{ page.reading_time }} minutes</p>
+        </div>
+      </div>
+    <div itemprop="articleBody">
+        {{ page.content | safe }}
+    </div>
+</article>
+{% endblock content %}

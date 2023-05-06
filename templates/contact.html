@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+.content {
+  margin: auto;
+  max-width: 80ch;
+}
+.code p{
+    color: rgb(164, 204, 104);
+}
+.content ul{
+   display: block;
+   color: #98a0b3;
+   font-size: 15px;
+   justify-content: left;
+   list-style: square;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-inline-start: 50px
+}
+.content ul li {
+   padding: 10px 0px;
+}
+</style>
+<h2 class="title">
+  {{ section.title }}
+</h2>
+<div class="content">
+
+
+<ul>
+    <li>anything@slangitup.xyz</li>
+    <li>Verify GPG Keys for encryption
+        <ul>
+            <div class="code"><li><p>curl -sL https://slangitup.xyz/pgp.asc | gpg --import</p></li></div>
+            <li>I will be signing all my mails with GPG </li>
+            <li>Fingerprints : <div class="code"><p>36EE 718B C449 283C 2B8F  8E43 9AD5 DC93 4E1C 20FA</p></div></li>
+        </ul>
+    </li>
+    <li>IRC : @SlangItUp</li>
+</ul>
+</div>
+{% endblock content %}

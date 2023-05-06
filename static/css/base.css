@@ -1,0 +1,62 @@
+@font-face {
+   font-family: roboto;
+   src: url(/../fonts/RobotoMono-Regular.ttf);
+}
+*{
+   text-decoration: none;
+}
+body{
+    background-color: #121212;
+   transform-origin: 0 0;
+   }
+header h2{
+    margin: 22px;
+    text-align:  center;
+    color: blanchedalmond;
+    font-size: 2.7em;
+    font-family: 'Courier New', Courier, monospace ;
+}
+header ul{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   flex-wrap:wrap-reverse;
+   padding: 0;
+   margin: 0;
+}
+header ul li {
+   padding: 6px 60px;
+}
+header ul li a{
+   font-size: 1.2em;
+   font-family: roboto;  
+   color:rgb(15, 158, 184);
+}
+header ul li a:hover{
+   color:rgb(160, 199, 206);
+}
+#center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 60px 0px;
+}
+#center img {
+   width: 200px;
+   height: 200px;
+   border-radius: 49%;
+   border: 3px solid black;
+}
+#center h1{
+   color: blanchedalmond;
+   font-size: 30px;
+   font-family: roboto;
+}
+.title{
+   padding: 30px 0px;
+   color: blanchedalmond;
+   font-size: 25px;
+   font-family: roboto;
+   text-align: center;
+}
