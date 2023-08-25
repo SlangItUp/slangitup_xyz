@@ -60,3 +60,16 @@ header ul li a:hover{
    font-family: roboto;
    text-align: center;
 }
+
+.list li{
+    font-size:1.2em;
+    color: #FEf ;
+}
+.list li a{
+   color: #FEF;
+   color:rgb(12, 154, 124);
+}
+.list li a:hover{
+   color:rgb(12, 154, 194);
+}
+

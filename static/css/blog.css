@@ -18,16 +18,21 @@
   --spacing-xs: 1em;
   --spacing-s: 0.5em;
   --spacing-m: 3em;
-  --spacing-l: 6em;
+   --spacing-l: 6em;
   --spacing-xl: 8em;
   /* Misc */
   --radius-xs: 0.25em;
   --radius-s: 0.5em;
-  --center-it: 0em 5rem;
+  --center-it: 0em 8rem;
 }
 article {
   margin: var(--center-it);
   max-width: var(--text-width-wide);
+}
+@media screen and (max-width: 800px) {
+    article{
+        margin: 0em 2em;
+    }
 }
 article>p~p {
   margin-bottom: var(--spacing-s);
@@ -97,6 +102,5 @@ ol,ul{
   color: var(--text);
   line-height: 32px;
   letter-spacing: 0.25px;
-  pa
 }
 
