@@ -1,6 +1,8 @@
 +++
 title = "This post is made to test markdown ----> HTML conversion and some CSS"
 date = 2023-06-24
+[taxonomies]
+tags = ["Movies", "Art", "Philosphy"] 
 +++
 
 ----
